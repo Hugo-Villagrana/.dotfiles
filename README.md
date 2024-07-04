@@ -22,6 +22,7 @@ git clone  git@github.com:Hugo-Villagrana/.dotfiles.git ~/.dotfiles
 ```zsh
 ln -s ~/.dotfiles/.zshrc ~/.zshrc
 ln -s ~/.dotfiles/.tmux.conf ~/.tmux.conf
+ln -s ~/.dotfiles/.config ~/.config
 ```
 
 4. Install Homebrew, followed by the software listed in the Brewfile.
