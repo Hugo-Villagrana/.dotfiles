@@ -5,3 +5,6 @@
 .DS_Store
 *.swp
 *.swo
+
+# misc
+pane_current_command
