@@ -1,0 +1,7 @@
+# Ignore iTerm2 configuration
+.config/iterm2
+
+# Ignore system-specific or editor-specific files
+.DS_Store
+*.swp
+*.swo
