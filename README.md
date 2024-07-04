@@ -13,7 +13,7 @@ xcode-select --install
 2. Clone repo into new hidden directory.
 
 ```zsh
-git clone  git@github.com:Hugo-Villagrana/.dotfiles.git ~/.dotfiles
+git clone  git@github.com:Hugo-Villagrana/dotfiles.git ~/.dotfiles
 ```
 
 
