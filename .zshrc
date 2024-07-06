@@ -102,3 +102,11 @@ source $ZSH/oh-my-zsh.sh
 
 alias vim="nvim"
 export PATH="$PATH:$(go env GOPATH)/bin"
+
+# pnpm
+export PNPM_HOME="/Users/hugovillagrana/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
