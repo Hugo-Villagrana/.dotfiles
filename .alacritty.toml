@@ -34,14 +34,8 @@ TERM = "xterm-256color"
 [font]
 size = 10.4
 
-# [font.glyph_offset]
-# y = 9
-
 [font.normal]
 family = "JetBrainsMonoNL Nerd Font"
-
-# [font.offset]
-# y = 10
 
 [scrolling]
 history = 2000
@@ -49,7 +43,6 @@ history = 2000
 [window]
 decorations = "buttonless"
 opacity = 0.992
-# startup_mode = "fullscreen"
 
 [window.dimensions]
 columns = 200
@@ -58,6 +51,17 @@ lines = 50
 [window.padding]
 x = 5
 y = 5
+
+# Enable Link Clicking
+[[hints.enabled]]
+binding = { key = "U", mods = "Control|Shift" }
+command = "xdg-open"
+hyperlinks = true
+mouse.enabled = true
+mouse.mods = "Command"
+post_processing = true
+persist = false
+regex = "(ipfs:|ipns:|magnet:|mailto:|gemini://|gopher://|https://|http://|news:|file:|git://|ssh:|ftp://)[^\u0000-\u001F\u007F-\u009F<>\"\\s{-}\\^⟨⟩‘]+"
 
 #######################################
 ##      START OF COLOR SCHEMES       ##
